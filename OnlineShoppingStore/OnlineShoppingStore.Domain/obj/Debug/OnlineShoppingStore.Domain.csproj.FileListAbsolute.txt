@@ -1,0 +1,11 @@
+F:\lets\OnlineShoppingStore\OnlineShoppingStore.Domain\bin\Debug\OnlineShoppingStore.Domain.dll.config
+F:\lets\OnlineShoppingStore\OnlineShoppingStore.Domain\bin\Debug\OnlineShoppingStore.Domain.dll
+F:\lets\OnlineShoppingStore\OnlineShoppingStore.Domain\bin\Debug\OnlineShoppingStore.Domain.pdb
+F:\lets\OnlineShoppingStore\OnlineShoppingStore.Domain\bin\Debug\EntityFramework.dll
+F:\lets\OnlineShoppingStore\OnlineShoppingStore.Domain\bin\Debug\EntityFramework.SqlServer.dll
+F:\lets\OnlineShoppingStore\OnlineShoppingStore.Domain\bin\Debug\EntityFramework.xml
+F:\lets\OnlineShoppingStore\OnlineShoppingStore.Domain\bin\Debug\EntityFramework.SqlServer.xml
+F:\lets\OnlineShoppingStore\OnlineShoppingStore.Domain\obj\Debug\OnlineShoppingStore.Domain.csprojResolveAssemblyReference.cache
+F:\lets\OnlineShoppingStore\OnlineShoppingStore.Domain\obj\Debug\OnlineShoppingStore.Domain.csproj.CoreCompileInputs.cache
+F:\lets\OnlineShoppingStore\OnlineShoppingStore.Domain\obj\Debug\OnlineShoppingStore.Domain.dll
+F:\lets\OnlineShoppingStore\OnlineShoppingStore.Domain\obj\Debug\OnlineShoppingStore.Domain.pdb

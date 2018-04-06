@@ -1,0 +1,61 @@
+﻿@model OnlineShoppingStore.Domain.Entities.ShippingDetails
+
+@{ #line 2 "F:\lets\OnlineShoppingStore\OnlineShoppingStore.WebUI\Views\Cart\Checkout.cshtml"
+    /**/
+
+    ViewBag.Title = "Online Shopping Store: Checkout";
+}
+
+<h2>Check out now</h2>
+<p>Please enter your details, and we will ship you as early as possible</p>
+@using (Html.BeginForm())
+    {
+    @Html.ValidationSummary()
+        <h3>Ship to</h3>
+        <div class="form-group">
+            <label>Name:</label>
+            @Html.TextBoxFor(x => x.name, new { @class = "form-control" })
+        </div>
+        <h3>Address</h3>
+    foreach(var property in ViewData.ModelMetadata.Properties)
+    {
+        if(property.PropertyName!="name" && property.PropertyName!= "Giftwrap")
+        {
+            <div class="form-group">
+                <label>@(property.DisplayName??property.PropertyName)</label>
+                @Html.TextBox(property.PropertyName,null,new
+           {
+               @class="form-control"
+           })
+                </div>
+        }
+    }
+        @*<div class="form-group">
+            <label>Line 1</label>
+            @Html.TextBoxFor(x => x.line1, new { @class = "form-control" })
+        </div>
+        <div class="form-group">
+            <label>Line 2</label>
+            @Html.TextBoxFor(x => x.line2, new { @class = "form-control" })
+        </div>
+        <div class="form-group">
+            <label>Line 3</label>
+            @Html.TextBoxFor(x => x.line3, new { @class = "form-control" })
+        </div>
+        <div class="form-group">
+            <label>City:</label>
+            @Html.TextBoxFor(x => x.city, new { @class = "form-control" })
+        </div>
+        <div class="form-group">
+            <label>state</label>
+            @Html.TextBoxFor(x => x.state, new { @class = "form-control" })
+        </div>
+        <div class="form-group">
+            <label>Country</label>
+            @Html.TextBoxFor(x => x.Country, new { @class = "form-control" })
+        </div>*@
+        <h3>Options</h3>
+        <div class="text-center">
+            <input class="btn btn-primary" type="submit" value="Complete order"/>
+            </div>
+    }
